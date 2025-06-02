@@ -124,9 +124,9 @@ const EmiVsRentCalculator = () => {
         // marginBottom: { xs: 2 }, // Bottom margin
       }}
     >
-      <h2 class="calculator-subhead">Explore our calculators designed to simplify your journey to ownership</h2>
       {isDesktop ? (
         <Grid container spacing={4} sx={{ padding: "0px" }}>
+      <h2 class="calculator-subhead">Explore our calculators designed to simplify your journey to ownership</h2>
           {/* Left Side: Title, Description, Location Selector, Cost of House Slider */}
           <Grid item xs={12} md={5}>
             {/* Title and Description */}
